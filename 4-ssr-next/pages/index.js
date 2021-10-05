@@ -16,8 +16,8 @@ export default function Home({data}) {
             </div>
 
             <div className="container-fluid d-flex justify-content-center flex-wrap">
-                {data.map((r) => (
-                    <Card key={r.id} offer={r}/>
+                {data.map((r, idx) => (
+                    <Card key={r.id} offer={r} onClick={() => alert(`Clicked on element #${idx + 1}`)}/>
                 ))}
             </div>
         </>

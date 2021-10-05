@@ -1,6 +1,8 @@
 <script>
+    import './Card.css'
+
     export let offer;
-    export let onClick = () => {};
+    export let onClick;
     
     console.log('rendering Card', offer.id);
 </script>
@@ -44,7 +46,7 @@
         <small class="text-muted key pl-3">Standard key Features</small>
         <div class="mx-3 mt-3 mb-2">
             <button type="button" class="btn btn-danger btn-block"
-                    onClick={onClick}>
+                    on:click={onClick}>
                 <small>BUILD & PRICE</small>
             </button>
         </div>

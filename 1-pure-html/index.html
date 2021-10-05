@@ -5,9 +5,16 @@
     <meta content="width=device-width,initial-scale=1" name="viewport">
     <title>Products listing</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="../_shared/index.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
+    <script>
+        function onClick(element) {
+            const card = element.parentElement.parentElement.parentElement;
+            const idx = Array.from(card.parentElement.children).indexOf(card);
+            alert(`Clicked on element #${idx + 1}`);
+        }
+    </script>
     <div class="text-center">
         <h1>Rendered server-side from the static file</h1>
     </div>
@@ -49,7 +56,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -93,7 +100,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -137,7 +144,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -181,7 +188,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -225,7 +232,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -269,7 +276,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -313,7 +320,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -357,7 +364,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -401,7 +408,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -445,7 +452,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -489,7 +496,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -533,7 +540,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -577,7 +584,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -621,7 +628,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -665,7 +672,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -709,7 +716,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -753,7 +760,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -797,7 +804,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -841,7 +848,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -885,7 +892,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -929,7 +936,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -973,7 +980,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1017,7 +1024,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1061,7 +1068,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1105,7 +1112,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1149,7 +1156,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1193,7 +1200,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1237,7 +1244,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1281,7 +1288,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1325,7 +1332,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1369,7 +1376,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1413,7 +1420,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1457,7 +1464,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1501,7 +1508,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1545,7 +1552,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1589,7 +1596,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1633,7 +1640,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1677,7 +1684,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1721,7 +1728,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1765,7 +1772,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1809,7 +1816,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1853,7 +1860,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1897,7 +1904,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1941,7 +1948,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -1985,7 +1992,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2029,7 +2036,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2073,7 +2080,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2117,7 +2124,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2161,7 +2168,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2205,7 +2212,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2249,7 +2256,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2293,7 +2300,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2337,7 +2344,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2381,7 +2388,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2425,7 +2432,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2469,7 +2476,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2513,7 +2520,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2557,7 +2564,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2601,7 +2608,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2645,7 +2652,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2689,7 +2696,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2733,7 +2740,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2777,7 +2784,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2821,7 +2828,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2865,7 +2872,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2909,7 +2916,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2953,7 +2960,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -2997,7 +3004,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3041,7 +3048,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3085,7 +3092,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3129,7 +3136,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3173,7 +3180,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3217,7 +3224,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3261,7 +3268,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3305,7 +3312,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3349,7 +3356,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3393,7 +3400,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3437,7 +3444,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3481,7 +3488,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3525,7 +3532,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3569,7 +3576,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3613,7 +3620,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3657,7 +3664,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3701,7 +3708,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3745,7 +3752,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3789,7 +3796,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3833,7 +3840,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3877,7 +3884,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3921,7 +3928,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -3965,7 +3972,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4009,7 +4016,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4053,7 +4060,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4097,7 +4104,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4141,7 +4148,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4185,7 +4192,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4229,7 +4236,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4273,7 +4280,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4317,7 +4324,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4361,7 +4368,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4405,7 +4412,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4449,7 +4456,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4493,7 +4500,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4537,7 +4544,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4581,7 +4588,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4625,7 +4632,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4669,7 +4676,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4713,7 +4720,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4757,7 +4764,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4801,7 +4808,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4845,7 +4852,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4889,7 +4896,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4933,7 +4940,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -4977,7 +4984,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -5021,7 +5028,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -5065,7 +5072,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -5109,7 +5116,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -5153,7 +5160,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -5197,7 +5204,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -5241,7 +5248,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>
@@ -5285,7 +5292,7 @@
                 </div>
                 <small class="text-muted key pl-3">Standard key Features</small>
                 <div class="mx-3 mt-3 mb-2">
-                    <button type="button" class="btn btn-danger btn-block">
+                    <button type="button" class="btn btn-danger btn-block" onclick="onClick(this)">
                         <small>BUILD & PRICE</small>
                     </button>
                 </div>

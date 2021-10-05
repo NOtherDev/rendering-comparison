@@ -1,6 +1,6 @@
 
 <script context="module">
-    export const hydrate = false; // true makes it SSR, false turns it into SSG
+    export const hydrate = true; // true makes it SSR, false turns it into SSG
 
     export async function load({page, fetch}) {
 		const res = await fetch('data.json');
@@ -31,7 +31,7 @@
 </div>
 
 <div class="container-fluid d-flex justify-content-center flex-wrap">
-    {#each offers as offer}
-        <Card {offer}/>
+    {#each offers as offer, idx}
+        <Card {offer} onClick={() => alert(`Clicked on element #${idx + 1}`)}/>
     {/each}
 </div>
