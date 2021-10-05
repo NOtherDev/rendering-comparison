@@ -12,11 +12,16 @@ function App() {
     }, []);
 
     return (
-        <div className="container-fluid d-flex justify-content-center flex-wrap">
-            {data.map((r) => (
-                <Card key={r.id} offer={r}/>
-            ))}
-        </div>
+        <>
+            <div className="text-center">
+                <h1>Rendered client-side by SPA at {new Date().toISOString()}</h1>
+            </div>
+            <div className="container-fluid d-flex justify-content-center flex-wrap">
+                {data.map((r) => (
+                    <Card key={r.id} offer={r}/>
+                ))}
+            </div>
+        </>
     );
 }
 
