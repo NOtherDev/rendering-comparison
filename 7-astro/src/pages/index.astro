@@ -1,0 +1,29 @@
+---
+import '../components/Card.css'
+// Component Imports
+import Card from '../components/Card.astro';
+// You can import components from any supported Framework here!
+
+const res = await fetch('https://raw.githubusercontent.com/NOtherDev/rendering-comparison/main/_shared/data.json');
+const data = await res.json();
+
+let renderDate = new Date().toISOString();
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Products listing</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="text-center">
+        <h1>Rendered server-side (SSG) at {renderDate}</h1>
+    </div>
+    <div class="container-fluid d-flex justify-content-center flex-wrap">
+        {data.map((r, idx) => (
+            <Card offer={r} idx={idx} />
+        ))}
+    </div>
+</body>
+</html>
