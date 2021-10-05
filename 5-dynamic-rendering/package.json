@@ -1,0 +1,35 @@
+{
+  "name": "ssr-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && react-scripts build",
+    "start": "node server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "isbot": "^3.3.4",
+    "next": "11.1.2",
+    "node-static": "^0.7.11",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
