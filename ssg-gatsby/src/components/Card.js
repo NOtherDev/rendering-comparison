@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Card({offer, onClick}) {
+    console.log('rendering Card', offer.id);
     return (
         <div className="card m-3">
             <img src={offer.imageUrl} className="card-img-top" width="100%"/>
