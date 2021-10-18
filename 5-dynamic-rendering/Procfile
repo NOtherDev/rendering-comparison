@@ -1,1 +1,1 @@
-web: npm run start
+web: npm --prefix 5-dynamic-rendering install && npm --prefix 5-dynamic-rendering build && npm --prefix 5-dynamic-rendering run start

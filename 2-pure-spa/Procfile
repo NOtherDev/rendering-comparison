@@ -1,1 +1,1 @@
-web: npm run start
+web: npm --prefix 2-pure-spa install && npm --prefix 2-pure-spa build && npm --prefix 2-pure-spa run start

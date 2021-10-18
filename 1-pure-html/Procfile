@@ -1,1 +1,1 @@
-web: npm run start
+web: npm --prefix 1-pure-html install && npm --prefix 1-pure-html build && npm --prefix 1-pure-html run start
