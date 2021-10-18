@@ -1,0 +1,1 @@
+web: npm --prefix 7-astro run serve -- -p $PORT

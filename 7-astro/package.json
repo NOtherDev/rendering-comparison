@@ -6,10 +6,12 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "serve": "serve dist"
   },
   "devDependencies": {
-    "astro": "^0.20.9"
+    "astro": "^0.20.9",
+    "serve": "^12.0.1"
   },
   "dependencies": {
     "@astrojs/renderer-react": "^0.2.2"
