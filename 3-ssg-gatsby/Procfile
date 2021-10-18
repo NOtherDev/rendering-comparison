@@ -1,1 +1,1 @@
-web: PORT=$PORT npm --prefix 3-ssg-gatsby run serve
+web: npm --prefix 3-ssg-gatsby run serve -- -p $PORT

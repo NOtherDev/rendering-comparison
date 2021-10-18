@@ -1,1 +1,1 @@
-web: PORT=$PORT npm --prefix 4-ssr-next run start
+web: npm --prefix 4-ssr-next run start -- -p $PORT
