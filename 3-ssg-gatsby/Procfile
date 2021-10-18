@@ -1,1 +1,1 @@
-web: npm --prefix 3-ssg-gatsby install && npm --prefix 3-ssg-gatsby build && npm --prefix 3-ssg-gatsby run start
+web: PORT=$PORT npm --prefix 3-ssg-gatsby run start

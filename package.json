@@ -1,5 +1,8 @@
 {
   "name": "rendering-talk-root",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "heroku-postbuild": "./heroku-build.sh"
+  }
 }

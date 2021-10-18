@@ -1,1 +1,1 @@
-web: npm --prefix 2-pure-spa install && npm --prefix 2-pure-spa build && PORT=$PORT npm --prefix 2-pure-spa run start
+web: PORT=$PORT yarn --cwd 2-pure-spa run start
