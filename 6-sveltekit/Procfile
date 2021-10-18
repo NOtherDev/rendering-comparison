@@ -1,0 +1,1 @@
+web: npm --prefix 6-sveltekit run serve -- -p $PORT

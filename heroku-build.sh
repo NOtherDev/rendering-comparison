@@ -6,3 +6,4 @@ yarn --cwd 2-pure-spa install && yarn --cwd 2-pure-spa build
 npm --prefix 3-ssg-gatsby install --production=false && npm --prefix 3-ssg-gatsby run build
 npm --prefix 4-ssr-next install --production=false && npm --prefix 4-ssr-next run build
 npm --prefix 5-dynamic-rendering install --production=false && npm --prefix 5-dynamic-rendering run build
+npm --prefix 6-sveltekit install --production=false && npm --prefix 6-sveltekit run build
