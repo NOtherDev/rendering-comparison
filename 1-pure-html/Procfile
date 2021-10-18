@@ -1,1 +1,1 @@
-web: npm run start
+web: npm --prefix 1-pure-html run start

@@ -1,1 +1,1 @@
-web: npm run start
+web: npm --prefix 5-dynamic-rendering run start
