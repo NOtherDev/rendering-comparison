@@ -13,7 +13,6 @@ export default function HTML(props) {
         />
         {props.headComponents}
           <title>Products listing</title>
-          <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"/>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
